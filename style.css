@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 32px;
+}
+
+.todo-form {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.todo-form input {
+    flex: 1;
+    padding: 15px;
+    font-size: 18px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+.todo-form button {
+    padding: 15px;
+    font-size: 18px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.todo-form button:hover {
+    background-color: #218838;
+}
+
+ol {
+    padding: 0;
+    list-style: decimal inside;
+}
+
+li {
+    background: #fff;
+    padding: 15px;
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 18px;
+}
+
+li .actions {
+    display: flex;
+    gap: 10px;
+}
+
+li .actions button {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+li .actions .edit-btn {
+    background-color: #007bff;
+    color: white;
+}
+
+li .actions .edit-btn:hover {
+    background-color: #0056b3;
+}
+
+li .actions .delete-btn {
+    background-color: #dc3545;
+    color: white;
+}
+
+li .actions .delete-btn:hover {
+    background-color: #c82333;
+}
